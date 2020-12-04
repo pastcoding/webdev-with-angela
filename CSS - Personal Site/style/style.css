@@ -1,0 +1,85 @@
+/********** Reset **********/
+
+body {
+  margin: 0;
+}
+
+/********** TAG Sel **********/
+
+body {
+  background-color: #fefefe;
+  font-family: "Merriweather", serif;
+  text-align: center;
+}
+
+h1 {
+  color: #66bfbf;
+  font-family: "Pacifico", cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin-top: 0;
+}
+
+h2 {
+  color: #66bfbf;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999e;
+}
+
+a {
+  color: #11999e;
+}
+
+/********** Class Sel **********/
+
+.underline {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  padding-top: 100px;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.middle-container {
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.computer-img {
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.chilli-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.bottom-container {
+}

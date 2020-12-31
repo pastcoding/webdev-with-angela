@@ -1,16 +1,19 @@
+:root {
+  --mcolor: #ff4c68;
+  --font: "Montserrat", sans-serif;
+}
+
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font);
 }
 
 h1 {
-  font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 3rem;
   line-height: 1.5;
@@ -26,7 +29,7 @@ h3 {
 
 /* Navigation Bar */
 #title {
-  background-color: #ff4c68;
+  background-color: var(--mcolor);
   color: #fff;
 }
 
@@ -45,7 +48,6 @@ h3 {
 }
 
 .nav-link {
-  font-family: "Montserrate", sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
 }
@@ -63,6 +65,16 @@ h3 {
   transform: rotate(25deg);
   position: absolute;
   right: 30%;
+}
+
+@media (max-width: 990px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
 }
 
 /* Features */
@@ -126,4 +138,29 @@ p {
 
 .pricing-col {
   padding: 3% 2%;
+}
+
+/* Footer */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#cta h3 {
+  font-family: var(--font);
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer {
+  text-align: center;
+  font-weight: bold;
+  padding: 7% 15%;
+}
+
+#footer span {
+  margin: 20px 10px;
+  color: #8f8f8f;
 }
